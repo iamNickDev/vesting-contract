@@ -5,7 +5,7 @@ This repository contains smart contracts for a vesting system using ASH tokens.
 ### Steps to Use:
 
 1. **Add Contracts to Remix:**
-   - Clone this repository to your local machine or simply copy the contract files.
+   - Clone this repository [https://github.com/iamNickDev/vesting-contract] to your local machine or simply copy the contract files.
    - Open Remix IDE (https://remix.ethereum.org/) in your browser.
    - Add the contract files (`ASHToken.sol` and `Vesting.sol`) to Remix.
 
@@ -17,7 +17,7 @@ This repository contains smart contracts for a vesting system using ASH tokens.
    - Update the ASH Token contract address in the constructor of `Vesting.sol` in the `ashToken = IERC20()` instance.
 
 4. **Add Beneficiary Address and Deploy Vesting Contract:**
-   - Define the beneficiary address as constructor argument when deploying the `Vesting.sol`.
+   - Define the beneficiary address as a constructor argument when deploying the `Vesting.sol`.
    - Compile and deploy the `Vesting.sol` contract on the desired Ethereum network using Remix.
 
 5. **Send ASH Tokens to Deployed Vesting Contract:**
