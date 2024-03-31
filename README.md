@@ -1,6 +1,6 @@
 ##   Token Vesting Contract
 
-This repository contains smart contracts for a vesting system using ASH tokens.
+This repository contains smart contracts for a vesting system using an ERC20 NDKToken.
 
 ### Steps to Use:
 
